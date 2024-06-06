@@ -1,7 +1,7 @@
 import express from 'express';
 import movieRoutes from './routes/movies.route.js'
 const app = express()
-const port = 6969;
+const port = 4000;
 app.use(express.json())
 
 app.get("/", (req, res) => {
